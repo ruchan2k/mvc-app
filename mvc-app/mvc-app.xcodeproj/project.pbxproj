@@ -13,6 +13,7 @@
 		B5D40B1228D98E44008588F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D40B1028D98E44008588F3 /* Main.storyboard */; };
 		B5D40B1428D98E44008588F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D40B1328D98E44008588F3 /* Assets.xcassets */; };
 		B5D40B1728D98E44008588F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D40B1528D98E44008588F3 /* LaunchScreen.storyboard */; };
+		B5D40B2228D9981A008588F3 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D40B2128D9981A008588F3 /* AppleProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B5D40B1328D98E44008588F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5D40B1628D98E44008588F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5D40B1828D98E44008588F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D40B2128D9981A008588F3 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		B5D40B0928D98E44008588F3 /* mvc-app */ = {
 			isa = PBXGroup;
 			children = (
-				B5D40B1E28D99248008588F3 /* New Group */,
+				B5D40B2028D997FC008588F3 /* Controller */,
+				B5D40B1F28D997F7008588F3 /* View */,
+				B5D40B1E28D99248008588F3 /* Model */,
 				B5D40B0A28D98E44008588F3 /* AppDelegate.swift */,
 				B5D40B0C28D98E44008588F3 /* SceneDelegate.swift */,
-				B5D40B0E28D98E44008588F3 /* Controller.swift */,
 				B5D40B1028D98E44008588F3 /* Main.storyboard */,
 				B5D40B1328D98E44008588F3 /* Assets.xcassets */,
 				B5D40B1528D98E44008588F3 /* LaunchScreen.storyboard */,
@@ -68,11 +71,27 @@
 			path = "mvc-app";
 			sourceTree = "<group>";
 		};
-		B5D40B1E28D99248008588F3 /* New Group */ = {
+		B5D40B1E28D99248008588F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5D40B2128D9981A008588F3 /* AppleProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5D40B1F28D997F7008588F3 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5D40B2028D997FC008588F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5D40B0E28D98E44008588F3 /* Controller.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D40B2228D9981A008588F3 /* AppleProduct.swift in Sources */,
 				B5D40B0F28D98E44008588F3 /* Controller.swift in Sources */,
 				B5D40B0B28D98E44008588F3 /* AppDelegate.swift in Sources */,
 				B5D40B0D28D98E44008588F3 /* SceneDelegate.swift in Sources */,
